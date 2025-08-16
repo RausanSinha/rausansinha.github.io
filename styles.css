@@ -1,0 +1,53 @@
+:root {
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --dark: #212529;
+    --light: #f8f9fa;
+}
+
+/* Custom styles */
+.navbar-brand span {
+    color: var(--primary);
+}
+
+.hero {
+    min-height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1 span, h2 span, h3 span {
+    color: var(--primary);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.social-links a {
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--primary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 120px 0 60px;
+    }
+    
+    .hero img {
+        margin-top: 30px;
+    }
+}
