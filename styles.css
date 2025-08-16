@@ -50,4 +50,56 @@ h1 span, h2 span, h3 span {
     .hero img {
         margin-top: 30px;
     }
+
+    /* About Section */
+.about {
+    padding: 5rem 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.about-text, .skills {
+    flex: 1;
+}
+
+.skill-buttons {
+    margin: 2rem 0;
+}
+    
+.about {
+    padding: 3rem 0;
+}
+    
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .skill-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    
+    .skill-buttons .btn {
+        width: 100%;
+        text-align: center;
+        margin: 0 !important;
+    }
+    
+    .skills {
+        margin-top: 2rem;
+    }
+    
+    .skill-item {
+        margin-bottom: 1.5rem;
+    }
+    
+    .progress {
+        height: 8px;
+    }
 }
